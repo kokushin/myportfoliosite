@@ -1,0 +1,6 @@
+@import 'vars/setting.css';
+
+@import 'foundation/reset.css';
+
+@import 'layout/header.css';
+@import 'layout/footer.css';
