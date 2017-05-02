@@ -1,34 +1,49 @@
-'use strict';
+const path = require('path')
+const webpack = require('webpack')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-const path = require('path'),
-      webpack = require('webpack');
-
-let config = {
-  entry: {
-    app: './src/js/entry.js'
-  },
+module.exports = {
+  entry: './src/js/main.js',
   output: {
-    filename: 'app.js'
+    path: path.resolve(__dirname, 'public/assets'),
+    publicPath: '/assets/',
+    filename: 'bundle.js',
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'public'),
+    port: 8080
   },
   resolve: {
-    root: [path.join(__dirname, 'node_modules')],
-    extensions: ['', '.webpack.js', '.js']
+    extensions: ['.webpack.js', '.js', '.css']
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['es2015']
-        }
+        use: ['babel-loader', 'eslint-loader']
+      },
+      {
+        test: /\.css$/,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: [
+            process.env.NODE_ENV === 'production'
+            ? 'css-loader?importLoaders=1&minimize=1'
+            : 'css-loader?importLoaders=1'
+            , 'postcss-loader'
+          ]
+        })
       }
     ]
   },
-  plugins: {
-    // new webpack.optimize.UglifyJsPlugin()
-  }
-};
-
-module.exports = config;
+  plugins: [
+    new ExtractTextPlugin({
+      filename: 'style.css',
+      allChunks: true
+    }),
+    process.env.NODE_ENV === 'production'
+      ? new webpack.optimize.UglifyJsPlugin()
+      : new webpack.HotModuleReplacementPlugin()
+  ]
+}
