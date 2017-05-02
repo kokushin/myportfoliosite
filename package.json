@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "NODE_ENV=production webpack",
-    "start": "webpack-dev-server --progress --inline --hot"
+    "dev": "webpack-dev-server --progress --inline --hot"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
