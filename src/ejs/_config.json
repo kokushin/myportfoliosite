@@ -1,0 +1,25 @@
+{
+  "default": {
+    "lang": "ja",
+    "charset": "utf-8",
+    "title": "Yusuke Ishiguro",
+    "description": "Web developer",
+    "keywords": "",
+    "author": "kokushin",
+    "publicPath": "http://kokush.in",
+    "cdnPath": "http://cdn.kokush.in",
+    "analytics": "",
+    "twitter": "@kokushing",
+    "facebook": "yusuke.1496",
+    "github": "kokushin"
+  },
+  "extension": {
+    "worksList": [
+      {
+        "title": "GLOSSY",
+        "date": "2016/07/01",
+        "path": "/works/2016/it-lifehack-magazine-glossy.html"
+      }
+    ]
+  }
+}

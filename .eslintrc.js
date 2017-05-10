@@ -4,9 +4,6 @@ module.exports = {
         "es6": true
     },
     "parserOptions": {
-        "ecmaFeatures": {
-            "experimentalObjectRestSpread": true,
-        },
         "sourceType": "module"
     },
     "rules": {
