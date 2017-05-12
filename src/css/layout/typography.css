@@ -1,0 +1,30 @@
+:root {
+  --fontSize: 1rem;
+  --fontFaceHeading: 'Pathway Gothic One', sans-serif;
+  --fontFaceBody: 'Roboto', sans-serif;
+  --fontFaceCode: 'Roboto Mono', monospace;
+}
+
+h1,
+h2 {
+  font-family: var(--fontFaceHeading);
+  text-transform: uppercase;
+  letter-spacing: .025em;
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: var(--fontFaceBody);
+}
+
+p {
+  line-height: 1.8;
+}
+
+code,
+pre {
+  font-family: var(--fontFaceCode);
+}

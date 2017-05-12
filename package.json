@@ -30,5 +30,8 @@
     "run-sequence": "^1.2.2",
     "webpack": "^2.5.0",
     "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "sanitize.css": "^5.0.0"
   }
 }
