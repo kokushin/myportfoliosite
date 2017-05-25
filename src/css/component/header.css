@@ -1,9 +1,10 @@
-header {
-  border-bottom: 1px solid #eee;
-  margin-bottom: 40px;
-  & h1 {
-    font-size: calc(var(--fontSize) * 2);
-  }
+.c-header {
+  padding: 80px 40px;
+  text-align: center;
 }
-
-
+.c-header_logo {
+  margin: 0;
+  font-size: calc(var(--fontSize) * 1.5);
+  letter-spacing: 1em;
+  margin-right: -1em;
+}

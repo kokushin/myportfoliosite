@@ -469,12 +469,9 @@ textarea,
 	cursor: default;
 }
 /* layout */
-body {
-  padding: 20px 40px;
-}
 h1,
 h2 {
-  font-family: 'Pathway Gothic One', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   text-transform: uppercase;
   letter-spacing: .025em;
 }
@@ -483,7 +480,7 @@ h4,
 h5,
 h6,
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'ヒラギノ角ゴ ProN W3', Meiryo, sans-serif;
 }
 p {
   line-height: 1.8;
@@ -493,13 +490,16 @@ pre {
   font-family: 'Roboto Mono', monospace;
 }
 /* component */
-header {
-  border-bottom: 1px solid #eee;
-  margin-bottom: 40px
+.c-header {
+  padding: 80px 40px;
+  text-align: center;
 }
-header h1 {
-	font-size: 32px;
-	font-size: 2rem;
+.c-header_logo {
+  margin: 0;
+  font-size: 24px;
+  font-size: 1.5rem;
+  letter-spacing: 1em;
+  margin-right: -1em;
 }
 /* page */
 body[data-page="index"] {

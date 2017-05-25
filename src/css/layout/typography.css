@@ -1,7 +1,7 @@
 :root {
   --fontSize: 1rem;
-  --fontFaceHeading: 'Pathway Gothic One', sans-serif;
-  --fontFaceBody: 'Roboto', sans-serif;
+  --fontFaceHeading: 'Roboto Mono', monospace;
+  --fontFaceBody: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'ヒラギノ角ゴ ProN W3', Meiryo, sans-serif;
   --fontFaceCode: 'Roboto Mono', monospace;
 }
 
