@@ -9,18 +9,23 @@
 
 <%- include('_component/_header') %>
 
-<main class="content">
+<main class="l-content">
 
-  <% for (var i = 0; i < config.extension.worksList.length; i++) { %>
+  <section class="l-works">
+    <div class="l-inner">
 
-  <article class="works-item">
-    <h3><a href="<%= config.extension.worksList[i].path %>"><%= config.extension.worksList[i].title %></a></h3>
-    <time><%= config.extension.worksList[i].date %></time>
-  </article>
+    <% for (var i = 0; i < config.extension.worksList.length; i++) { %>
 
-  <% } %>
+      <article class="c-list _works">
+        <h3 class="c-list_title"><a href="<%= config.extension.worksList[i].path %>"><%= config.extension.worksList[i].title %></a></h3>
+        <time class="c-list_date"><%= config.extension.worksList[i].date %></time>
+      </article>
 
-  <p><a href="/">back</a></p>
+    <% } %>
+
+    </div>
+  </section>
+
 </main>
 
 <%# include('_component/_footer') %>

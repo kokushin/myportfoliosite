@@ -5,7 +5,6 @@
   --fontFaceCode: 'Roboto Mono', monospace;
 }
 
-h1,
 h2 {
   font-family: var(--fontFaceHeading);
   text-transform: uppercase;
