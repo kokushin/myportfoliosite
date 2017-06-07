@@ -10,24 +10,31 @@
 <%- include('_component/_header') %>
 
 <main class="l-content">
+  <div class="l-inner">
 
-  <section class="l-works">
-    <div class="l-inner">
+    <section class="l-works">
 
-    <% for (var i = 0; i < config.extension.worksList.length; i++) { %>
+      <% for (var i = 0; i < config.extension.worksList.length; i++) { %>
 
-      <article class="c-list _works">
-        <h3 class="c-list_title"><a href="<%= config.extension.worksList[i].path %>"><%= config.extension.worksList[i].title %></a></h3>
-        <time class="c-list_date"><%= config.extension.worksList[i].date %></time>
-      </article>
+        <article class="c-worksCard _<%= (i + 1) %>">
+          <a href="<%= config.extension.worksList[i].path %>" class="e-noise">
+            <header class="c-worksCard_header">
+              <h3 class="c-worksCard_title e-noise_item" data-text="<%= config.extension.worksList[i].title %>"><%= config.extension.worksList[i].title %></h3>
+              <time class="c-worksCard_date"><%= config.extension.worksList[i].date %></time>
+              <div class="c-worksCard_category"><%= config.extension.worksList[i].category %></div>
+            </header>
+          </a>
+        </article>
 
-    <% } %>
+      <% } %>
 
-    </div>
-  </section>
+    </section>
 
+  </div>
 </main>
 
-<%# include('_component/_footer') %>
+<%- include('_component/_footer') %>
+
+<%- include('_component/_about') %>
 
 <%- include('_common/_foot') %>

@@ -5,18 +5,9 @@
   --fontFaceCode: 'Roboto Mono', monospace;
 }
 
-h2 {
+body {
   font-family: var(--fontFaceHeading);
-  text-transform: uppercase;
-  letter-spacing: .025em;
-}
-
-h3,
-h4,
-h5,
-h6,
-p {
-  font-family: var(--fontFaceBody);
+  letter-spacing: .25em;
 }
 
 p {

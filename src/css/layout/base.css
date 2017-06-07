@@ -12,8 +12,11 @@
   }
 }
 
+.l-content {
+  padding-bottom: 8em;
+}
+
 .l-inner {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 6em 16em;
   position: relative;
 }

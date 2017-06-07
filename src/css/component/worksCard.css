@@ -1,0 +1,53 @@
+.c-worksCard {
+  position: relative;
+  // text-align: center;
+
+  & + .c-worksCard {
+    margin-top: 12em;
+
+    &:before {
+      // content: " ";
+      // display: block;
+      // width: 20px;
+      // height: 3px;
+      // background: color(black a(20%));
+      // transform: rotate(-45deg);
+      // margin: 0 auto 8em;
+    }
+  }
+
+  & a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.c-worksCard_header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.c-worksCard_title {
+  font-size: calc(var(--fontSize) * 2);
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0;
+
+  @nest a:hover & {
+    color: white;
+    background: black;
+  }
+}
+
+.c-worksCard_date,
+.c-worksCard_category {
+  font-size: calc(var(--fontSize) * .875);
+  color: black;
+  margin-left: 2em;
+}
+
+.c-worksCard_date {
+  display: block;
+}
