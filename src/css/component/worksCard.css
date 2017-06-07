@@ -1,19 +1,8 @@
 .c-worksCard {
   position: relative;
-  // text-align: center;
 
   & + .c-worksCard {
     margin-top: 12em;
-
-    &:before {
-      // content: " ";
-      // display: block;
-      // width: 20px;
-      // height: 3px;
-      // background: color(black a(20%));
-      // transform: rotate(-45deg);
-      // margin: 0 auto 8em;
-    }
   }
 
   & a {

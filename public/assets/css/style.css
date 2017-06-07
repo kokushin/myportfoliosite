@@ -703,8 +703,6 @@ body[data-page="index"] .c-header_back {
 .c-worksCard + .c-worksCard {
 	margin-top: 12em;
 }
-.c-worksCard + .c-worksCard:before {
-}
 .c-worksCard a {
 	display: inline-block;
 	text-decoration: none;
