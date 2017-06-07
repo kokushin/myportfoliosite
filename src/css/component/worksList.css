@@ -1,7 +1,7 @@
-.c-worksCard {
+.c-worksList {
   position: relative;
 
-  & + .c-worksCard {
+  & + .c-worksList {
     margin-top: 12em;
   }
 
@@ -12,13 +12,13 @@
   }
 }
 
-.c-worksCard_header {
+.c-worksList_header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.c-worksCard_title {
+.c-worksList_title {
   font-size: calc(var(--fontSize) * 2);
   text-transform: uppercase;
   line-height: 1;
@@ -30,13 +30,13 @@
   }
 }
 
-.c-worksCard_date,
-.c-worksCard_category {
+.c-worksList_date,
+.c-worksList_category {
   font-size: calc(var(--fontSize) * .875);
   color: black;
   margin-left: 2em;
 }
 
-.c-worksCard_date {
+.c-worksList_date {
   display: block;
 }

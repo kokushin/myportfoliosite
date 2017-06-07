@@ -6,12 +6,14 @@
   padding: 6em 8em;
   line-height: 1;
   background-color: transparent;
+  position: relative;
+  z-index: var(--layerLv4);
 }
 
 .c-header_logo {
   display: none;
   text-transform: uppercase;
-  font-size: calc(var(--fontSize));
+  font-size: calc(var(--fontSize) * 1.5);
   margin: 0;
 
   & > span {

@@ -19,63 +19,54 @@
         "title": "My Portfolio Site",
         "date": "2017.06.02",
         "category": "💻 Website",
-        "thumb": "/assets/img/top/works/glossy/thumb.png",
-        "path": "/works/2016/it-lifehack-magazine-glossy.html"
+        "path": "/works/2017/my-portfolio-site.html"
       },
       {
         "title": "Slack File Destroyer",
         "date": "2017.06.02",
         "category": "🔧 Tool",
-        "thumb": "/assets/img/top/works/glossy/thumb.png",
         "path": "/works/2016/it-lifehack-magazine-glossy.html"
       },
       {
         "title": "LCCSS",
         "date": "2017.06.02",
         "category": "📄 Coding rule",
-        "thumb": "/assets/img/top/works/glossy/thumb.png",
         "path": "/works/2016/it-lifehack-magazine-glossy.html"
       },
       {
         "title": "IT lifehack magazine GLOSSY",
         "date": "2016.07.01",
         "category": "💻 Website",
-        "thumb": "/assets/img/top/works/glossy/thumb.png",
         "path": "/works/2016/it-lifehack-magazine-glossy.html"
       },
       {
         "title": "MOGUO",
-        "date": "2016.07.01",
+        "date": "2014.07.01",
         "category": "🎮 Game",
-        "thumb": "/assets/img/top/works/glossy/thumb.png",
-        "path": "/works/2016/it-lifehack-magazine-glossy.html"
+        "path": "/works/2014/moguo.html"
       },
       {
         "title": "Job Collection",
         "date": "2016.07.01",
         "category": "🎮 Game",
-        "thumb": "/assets/img/top/works/glossy/thumb.png",
         "path": "/works/2016/it-lifehack-magazine-glossy.html"
       },
       {
         "title": "Seminar slides",
         "date": "2015 - 2016",
         "category": "📄 Slide document",
-        "thumb": "/assets/img/top/works/glossy/thumb.png",
         "path": "/works/2016/it-lifehack-magazine-glossy.html"
       },
       {
-        "title": "Doujin works",
+        "title": "Dojin works",
         "date": "2015 - 2016",
         "category": "🎨 Illustration & Book",
-        "thumb": "/assets/img/top/works/glossy/thumb.png",
-        "path": "/works/2016/it-lifehack-magazine-glossy.html"
+        "path": "/works/2015/dojin-works.html"
       },
       {
         "title": "Client works",
         "date": "2014 - 2017",
         "category": "💻 Website",
-        "thumb": "/assets/img/top/works/glossy/thumb.png",
         "path": "/works/2016/it-lifehack-magazine-glossy.html"
       }
     ]

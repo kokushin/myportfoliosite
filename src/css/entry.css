@@ -1,3 +1,6 @@
+/* vars */
+@import './vars/vars';
+
 /* sanitize.css */
 @import '../../node_modules/sanitize.css/sanitize.css';
 
@@ -9,7 +12,8 @@
 @import './component/header';
 @import './component/footer';
 @import './component/about';
-@import './component/worksCard';
+@import './component/worksHero';
+@import './component/worksList';
 
 /* page */
 @import './page/top';

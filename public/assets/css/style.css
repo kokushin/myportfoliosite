@@ -1,3 +1,4 @@
+/* vars */
 /* sanitize.css */
 /*! sanitize.css v5.0.0 | CC0 License | github.com/jonathantneal/sanitize.css */
 /* Document (https://html.spec.whatwg.org/multipage/semantics.html#semantics)
@@ -514,12 +515,14 @@ pre {
   padding: 6em 8em;
   line-height: 1;
   background-color: transparent;
+  position: relative;
+  z-index: 19999;
 }
 .c-header_logo {
   display: none;
   text-transform: uppercase;
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 24px;
+  font-size: 1.5rem;
   margin: 0
 }
 .c-header_logo > span {
@@ -697,18 +700,40 @@ body[data-page="index"] .c-header_back {
 	-webkit-transform: rotate(-6deg);
 	        transform: rotate(-6deg);
 }
-.c-worksCard {
+.c-worksHero {
+  position: relative;
+  background: rgba(0, 0, 0, 0.05);
+}
+.c-worksHero_item {
+  padding: 4em 16em
+}
+.c-worksHero_item._vertical {
+	text-align: center;
+}
+.c-worksHero_item._vertical img {
+	width: auto;
+	max-height: 1000px;
+}
+.c-worksHero_item img {
+	width: 100%;
+	height: auto;
+	margin-bottom: -8em;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+                0 3px 6px rgba(0, 0, 0, 0.23);
+	background: white;
+}
+.c-worksList {
   position: relative
 }
-.c-worksCard + .c-worksCard {
+.c-worksList + .c-worksList {
 	margin-top: 12em;
 }
-.c-worksCard a {
+.c-worksList a {
 	display: inline-block;
 	text-decoration: none;
 	color: black;
 }
-.c-worksCard_header {
+.c-worksList_header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -718,25 +743,25 @@ body[data-page="index"] .c-header_back {
       -ms-flex-align: center;
           align-items: center;
 }
-.c-worksCard_title {
+.c-worksList_title {
   font-size: 32px;
   font-size: 2rem;
   text-transform: uppercase;
   line-height: 1;
   margin: 0
 }
-a:hover .c-worksCard_title {
+a:hover .c-worksList_title {
 	color: white;
 	background: black;
 }
-.c-worksCard_date,
-.c-worksCard_category {
+.c-worksList_date,
+.c-worksList_category {
   font-size: 14px;
   font-size: 0.875rem;
   color: black;
   margin-left: 2em;
 }
-.c-worksCard_date {
+.c-worksList_date {
   display: block;
 }
 /* page */
@@ -744,7 +769,6 @@ body[data-page="index"] {
 
 }
 body[data-page="works"] {
-
 }
 /* effect */
 /* https://codepen.io/MasterChief/pen/WoKJKM */
