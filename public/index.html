@@ -1,190 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yusuke Ishiguro</title>
-  <link rel="canonical" href="http://kokush.in">
-  <meta name="description" content="Web developer">
-  <meta name="author" content="kokushin">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Yusuke Ishiguro">
-  <meta property="og:title" content="Yusuke Ishiguro">
-  <meta property="og:description" content="Web developer">
-  <meta property="og:url" content="http://kokush.in">
-  <meta property="og:image" content="http://kokush.in/assets/img/share/facebook.png">
-  <meta name="twitter:site" content="@kokushing">
-  <meta name="twitter:creator" content="@kokushing">
-  <meta name="twitter:url" content="http://kokush.in">
-  <meta name="twitter:title" content="Yusuke Ishiguro">
-  <meta name="twitter:description" content="Web developer">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="http://kokush.in/assets/img/share/twitter.png">
-  <meta name="format-detection" content="telephone=no">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Yusuke Ishiguro">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/share/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/share/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/share/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/share/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/share/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/share/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/share/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/share/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/share/apple-touch-icon-180x180.png">
-  <link rel="icon" sizes="32x32" type="image/png" href="/assets/share/favicon-32x32.png">
-  <link rel="shortcut icon" href="/assets/share/favicon.ico">
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
-  <script src="//twemoji.maxcdn.com/2/twemoji.min.js?2.3.0"></script>
-</head>
-<body data-page="index">
-
-
-<header class="c-header">
-  <div class="c-header_back">
-    <a href="/"><i class="c-header_back_icon">Back</i></a>
-  </div>
-  <h1 class="c-header_logo e-noise _always">Yusuke Ishi<span class="e-noise_item" data-text="guro">guro</span></h1>
-  <nav class="c-header_nav">
-    <a href="javascript:void(0)" class="c-header_nav_item _about e-noise"><span class="e-noise_item" data-text="About">About</span></a>
-  </nav>
-</header>
-
-
-<main class="l-content">
-  <div class="l-inner">
-
-    <section class="l-works">
-
-      
-
-        <article class="c-worksList _1">
-          <a href="/works/2017/my-portfolio-site.html" class="e-noise">
-            <header class="c-worksList_header">
-              <h3 class="c-worksList_title e-noise_item" data-text="My Portfolio Site">My Portfolio Site</h3>
-              <time class="c-worksList_date">2017.06.02</time>
-              <div class="c-worksList_category">💻 Website</div>
-            </header>
-          </a>
-        </article>
-
-      
-
-        <article class="c-worksList _2">
-          <a href="/works/2016/it-lifehack-magazine-glossy.html" class="e-noise">
-            <header class="c-worksList_header">
-              <h3 class="c-worksList_title e-noise_item" data-text="Slack File Destroyer">Slack File Destroyer</h3>
-              <time class="c-worksList_date">2017.06.02</time>
-              <div class="c-worksList_category">🔧 Tool</div>
-            </header>
-          </a>
-        </article>
-
-      
-
-        <article class="c-worksList _3">
-          <a href="/works/2016/it-lifehack-magazine-glossy.html" class="e-noise">
-            <header class="c-worksList_header">
-              <h3 class="c-worksList_title e-noise_item" data-text="LCCSS">LCCSS</h3>
-              <time class="c-worksList_date">2017.06.02</time>
-              <div class="c-worksList_category">📄 Coding rule</div>
-            </header>
-          </a>
-        </article>
-
-      
-
-        <article class="c-worksList _4">
-          <a href="/works/2016/it-lifehack-magazine-glossy.html" class="e-noise">
-            <header class="c-worksList_header">
-              <h3 class="c-worksList_title e-noise_item" data-text="IT lifehack magazine GLOSSY">IT lifehack magazine GLOSSY</h3>
-              <time class="c-worksList_date">2016.07.01</time>
-              <div class="c-worksList_category">💻 Website</div>
-            </header>
-          </a>
-        </article>
-
-      
-
-        <article class="c-worksList _5">
-          <a href="/works/2014/moguo.html" class="e-noise">
-            <header class="c-worksList_header">
-              <h3 class="c-worksList_title e-noise_item" data-text="MOGUO">MOGUO</h3>
-              <time class="c-worksList_date">2014.07.01</time>
-              <div class="c-worksList_category">🎮 Game</div>
-            </header>
-          </a>
-        </article>
-
-      
-
-        <article class="c-worksList _6">
-          <a href="/works/2016/it-lifehack-magazine-glossy.html" class="e-noise">
-            <header class="c-worksList_header">
-              <h3 class="c-worksList_title e-noise_item" data-text="Job Collection">Job Collection</h3>
-              <time class="c-worksList_date">2016.07.01</time>
-              <div class="c-worksList_category">🎮 Game</div>
-            </header>
-          </a>
-        </article>
-
-      
-
-        <article class="c-worksList _7">
-          <a href="/works/2016/it-lifehack-magazine-glossy.html" class="e-noise">
-            <header class="c-worksList_header">
-              <h3 class="c-worksList_title e-noise_item" data-text="Seminar slides">Seminar slides</h3>
-              <time class="c-worksList_date">2015 - 2016</time>
-              <div class="c-worksList_category">📄 Slide document</div>
-            </header>
-          </a>
-        </article>
-
-      
-
-        <article class="c-worksList _8">
-          <a href="/works/2015/dojin-works.html" class="e-noise">
-            <header class="c-worksList_header">
-              <h3 class="c-worksList_title e-noise_item" data-text="Dojin works">Dojin works</h3>
-              <time class="c-worksList_date">2015 - 2016</time>
-              <div class="c-worksList_category">🎨 Illustration &amp; Book</div>
-            </header>
-          </a>
-        </article>
-
-      
-
-        <article class="c-worksList _9">
-          <a href="/works/2016/it-lifehack-magazine-glossy.html" class="e-noise">
-            <header class="c-worksList_header">
-              <h3 class="c-worksList_title e-noise_item" data-text="Client works">Client works</h3>
-              <time class="c-worksList_date">2014 - 2017</time>
-              <div class="c-worksList_category">💻 Website</div>
-            </header>
-          </a>
-        </article>
-
-      
-
-    </section>
-
-  </div>
-</main>
-
-<footer class="c-footer">
-  <small class="c-footer_copyright">&copy; 2017 Yusuke Ishiguro</small>
-</footer>
-
-
-
-
-
-<script src="/assets/js/common.js"></script>
-</body>
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
-
