@@ -1,0 +1,123 @@
+{
+  "works": [
+    {
+      "title": "UNITS",
+      "link": "http://unitcss.com",
+      "text": "シンプルで美しいコンポーネントセット。もともとは個人ポートフォリオ用に開発していたが、せっかくなのでフレームワーク形式にしてベータ版を公開中",
+      "tag": "CSS",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "Slack File Destroyer",
+      "link": "https://github.com/kokushin/slack-file-destroyer",
+      "text": "Slack上のファイルを一括で削除できるツール。社内向けツールとして開発していた",
+      "tag": "Node.js",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "GLOSSY",
+      "link": "https://glossy.bz",
+      "text": "知っておくと役に立つITライフハック術、ガジェット・アプリケーションに関する情報を配信しているメディアブログ",
+      "tag": "PHP, WordPress",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "web-starter-kit",
+      "link": "https://github.com/kokushin/web-starter-kit",
+      "text": "Gulp.js, EJS, webpack, PostCSS(cssnext), ESLint で構成されたスターターキット",
+      "tag": "Node.js",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "LCCSS",
+      "link": "https://github.com/kokushin/lccss",
+      "text": "自作コーディングルール。各要素のカテゴライズを「レイアウト」と「コンポーネント」の2軸に絞ることでシンプルな構造にし、従来のCSS設計における思考時間を少しでも減らすことを目標としている",
+      "tag": "Guideline",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "EJSPress",
+      "link": "https://github.com/kokushin/ejspress",
+      "text": "Gulp.js + テンプレートエンジンEJSを利用した静的HTMLジェネレータ(のようなもの)",
+      "tag": "Node.js",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "Code of Duty",
+      "link": "http://www.codeofduty.me/",
+      "text": "イベント参加レポート、開発に関することをメモしておくブログ。Hexo + GitHub Pagesで簡単に更新できるようにした",
+      "tag": "Node.js, Hexo",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "charef",
+      "link": "http://codeofduty.me/charef/",
+      "text": "機種依存文字をエンティティに変換してくれるツール。案件で出くわすシーンが多かったのでVue.jsを使い速攻自作した",
+      "tag": "JavaScript, Vue.js",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "MarkDown Visual Editor",
+      "link": "https://github.com/kokushin/mdve",
+      "text": "Vue.js + Electronで開発したマークダウンをプレーンテキストとして出力してくれるエディタアプリ",
+      "tag": "JavaScript, Vue.js, Electron",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "stone.black",
+      "link": "http://stone.black/",
+      "text": "以前のポートフォリオサイト。Pjaxを利用したスムーズな画面遷移が特徴",
+      "tag": "HTML",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "transcroll",
+      "link": "https://github.com/kokushin/transcroll/",
+      "text": "CSS3 Transformを利用したなめらかなページ内スクロールを実現できるライブラリ",
+      "tag": "JavaScript",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "floating.css",
+      "link": "https://github.com/kokushin/floating.css",
+      "text": "指定した要素を浮遊させるCSSアニメーションライブラリ。GitHubデビュー作品",
+      "tag": "CSS",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "名前募集バーガー風 ジェネレーター",
+      "link": "http://bgrgen.kokush.in/",
+      "text": "深夜テンションで作った画像ジェネレーター。素材画像と文字を配置することで雑コラ画像を生成できる",
+      "tag": "JavaScript",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "究極進化MOGUO",
+      "link": "http://moguo.kokush.in/",
+      "text": "与えたファイル形式によって進化するキャラクターが変化するゲームのデモ。キャラクターデータを配信中",
+      "tag": "JavaScript, PHP",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "Job Collection",
+      "link": "http://job-collection.kokush.in/",
+      "text": "卒業制作。ソーシャルゲームっぽいものを自作してみた。企画、キャラデザ、イラスト、UI/Webデザイン、プログラミングなどほぼ一人で制作",
+      "tag": "PHP",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "MAGLON",
+      "link": "#",
+      "text": "同人活動。Web系の開発だけでなく、イラストや漫画も描いた。製本してイベントに持ち込んだりした",
+      "tag": "Illustration",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "Client works",
+      "link": "#",
+      "text": "2014 - by un-T factory!",
+      "tag": "",
+      "image": "https://source.unsplash.com/random"
+    }
+  ]
+}
