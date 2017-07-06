@@ -114,9 +114,16 @@
     },
     {
       "title": "Client works",
-      "link": "#",
-      "text": "2014 - by un-T factory!",
-      "tag": "",
+      "link": "https://ishiguro1.tumblr.com/archive",
+      "text": "会社での実績一覧",
+      "tag": "Private",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "title": "More works",
+      "link": "https://github.com/kokushin?tab=repositories",
+      "text": "GitHubを覗いてみる",
+      "tag": "Private",
       "image": "https://source.unsplash.com/random"
     }
   ]

@@ -13,9 +13,6 @@ class Works extends Component {
         <div className="uc-card-unit">
           <WorksCard />
         </div>
-        <div className="uc-btn-unit">
-          <div className="uc-btn"><a href="https://github.com/kokushin?tab=repositories" target="_blank" rel="noopener noreferrer">More works</a></div>
-        </div>
       </section>
     );
   }

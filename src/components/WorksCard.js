@@ -9,7 +9,7 @@ class WorksCard extends Component {
   }
 
   loadWorksFromServer() {
-    axios.get('api/data.json')
+    axios.get('/api/data.json')
       .then((res) => {
         this.setState({data: res.data});
       })
@@ -25,7 +25,7 @@ class WorksCard extends Component {
   render() {
     const data = this.state.data;
     return(
-      <div className="uc-grid _col-3 _small-col-full _gutter">
+      <div className="uc-grid _small-col-full _medium-col-3 _col-4 _gutter">
         {data && data.works && data.works.map((item, i) =>
           <div key={i} className="uc-grid-cell">
             <Card image={item.image} title={item.title} link={item.link} text={item.text} tag={item.tag} />
