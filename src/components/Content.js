@@ -5,7 +5,7 @@ import '../styles/Content.css';
 class Content extends Component {
   render() {
     return(
-      <main className="uc-content content">
+      <main className="uc-content">
         <Works />
       </main>
     );
