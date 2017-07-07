@@ -1,8 +1,0 @@
-.works .uc-card-unit {
-  margin-top: 80px;
-}
-@media (max-width: 768px) {
-  .works .uc-card-unit {
-    margin-top: 48px;
-  }
-}

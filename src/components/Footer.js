@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 class Footer extends Component {
   render() {
     return(
-      <footer className="uc-footer _dark">
+      <footer className="uc-footer">
         <div className="uc-footer-menu">
           <a href="https://twitter.com/kokushing" target="_blank" rel="noopener noreferrer">Twitter</a>
           <a href="https://www.facebook.com/yusuke.1496" target="_blank" rel="noopener noreferrer">Facebook</a>
@@ -12,7 +12,6 @@ class Footer extends Component {
           <a href="https://www.instagram.com/kokushin_/" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
         <div className="uc-footer-logo"><cite>YI</cite></div>
-        <p>This page was made using <a href="" target="_blank">UNITS</a>.</p>
         <small>&copy; 2017 Yusuke Ishiguro</small>
       </footer>
     );
