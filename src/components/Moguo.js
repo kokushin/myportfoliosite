@@ -5,7 +5,7 @@ class Moguo extends Component {
   render() {
     return(
       <div className="uc-moguo">
-        <a href="https://codepen.io/kokushin/pen/mmQORR" target="_blank" rel="noopener noreferrer">
+        <a href="https://codepen.io/kokushin/pen/mmQORR" target="_blank">
           <div className="uc-moguo-eye _left"></div>
           <div className="uc-moguo-eye _right"></div>
           <div className="uc-moguo-mouth">
