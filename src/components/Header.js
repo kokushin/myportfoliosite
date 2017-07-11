@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import ReactModal from 'react-modal';
 import '../styles/Header.css';
-
-ReactModal.setAppElement('#root');
 
 class Header extends Component {
   render() {
