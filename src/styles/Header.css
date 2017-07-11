@@ -1,34 +1,3 @@
 .uc-header-menu>a {
   outline: transparent;
 }
-
-.uc-modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 25999;
-  background-color: white;
-}
-.uc-modal {
-  position: absolute;
-  top: 40px;
-  right: 40px;
-  bottom: 40px;
-  left: 40px;
-  outline: transparent;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch
-}
-@media (max-width: 768px) {
-  .uc-modal {
-    top: 32px;
-    right: 8px;
-    bottom: 32px;
-    left: 8px;
-  }
-}
-.uc-modal .uc-card {
-  margin: 0 auto;
-}
