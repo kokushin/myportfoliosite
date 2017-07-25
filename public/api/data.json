@@ -9,7 +9,7 @@
     },
     {
       "title": "UNITS",
-      "link": "https://github.com/kokushin/unitscss",
+      "link": "https://unitscss.com",
       "text": "普段良く使うコンポーネントやスタイルをコピペで使えるようにするべく、CSSフレームワークを自作。どうせなら、とGitHubやnpmで公開してみた",
       "tag": "CSS, npm",
       "image": "/img/works/13.png"
