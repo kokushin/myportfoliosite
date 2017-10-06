@@ -27,7 +27,7 @@ class WorksCard extends Component {
   render() {
     const data = this.state.data;
     return(
-      <div className="uc-grid _small-col-full _medium-col-3 _col-4 _gutter">
+      <div className="uc-grid _small-col-full _medium-col-2 _col-3 _gutter">
         {data && data.works && data.works.map((item, i) =>
           <div key={i} className="uc-grid-cell">
             <Card image={item.image} title={item.title} link={item.link} text={item.text} tag={item.tag} />
