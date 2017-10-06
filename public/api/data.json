@@ -1,6 +1,34 @@
 {
   "works": [
     {
+      "title": "Uny",
+      "link": "https://unys.github.io/uny/",
+      "text": "UNITSの正式版として再開発。より今風なデザインに調整し、開発環境も一新している",
+      "tag": "CSS, npm",
+      "image": "/img/works/17.png"
+    },
+    {
+      "title": "Yogurt",
+      "link": "https://plant-milk.github.io/Yogurt/",
+      "text": "マークダウン形式に対応した、ドキュメントページ向けの静的サイトジェネレータ。@steelydylanと共同開発。自分は主にUI周りを担当した",
+      "tag": "React.js",
+      "image": "/img/works/16.gif"
+    },
+    {
+      "title": "node-twatch",
+      "link": "https://github.com/kokushin/node-twatch/",
+      "text": "特定のユーザー、キーワードを含めたツイート監視し、一致するツイートが投稿された際にSlackへ転送するツール。効率の良い情報収集を目指すために開発された",
+      "tag": "Node.js, npm",
+      "image": "/img/works/15.gif"
+    },
+    {
+      "title": "jpn.css",
+      "link": "https://kokushin.github.io/jpn.css/",
+      "text": "BootstrapなどCSSフレームワークを適用させた際、日本語だと不格好に見えてしまう問題を解消するためのスタイルシート",
+      "tag": "CSS, npm",
+      "image": "/img/works/14.gif"
+    },
+    {
       "title": "mono.css",
       "link": "https://kokushin.github.io/mono.css/",
       "text": "2KBの軽量CSSフレームワーク。白黒ベースのシンプルなデザインを適用できる",
