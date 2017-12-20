@@ -1,6 +1,27 @@
 {
   "works": [
     {
+      "title": "atoyomi",
+      "link": "https://chrome.google.com/webstore/detail/bijbpdfpldnfnponpjmnhmmhgildmgga?hl=ja",
+      "text": "atoyomiは、現在開いているページを一時的に保存し、「あとで読む」ことができる拡張機能です。",
+      "tag": "JavaScript",
+      "image": "/img/works/20.png"
+    },
+    {
+      "title": "UNY Theme Generator",
+      "link": "https://unys.github.io/uny-theme-generator/",
+      "text": "UNYのカラースキームを編集し、CSSファイルとしてダウンロードできるジェネレータ",
+      "tag": "Vue.js",
+      "image": "/img/works/19.png"
+    },
+    {
+      "title": "Spenders",
+      "link": "https://spenders.cc",
+      "text": "シンプルな支出管理アプリケーション。一人暮らしに向けて約3日で開発。Vue.jsの素晴らしさを実感した",
+      "tag": "Vue.js",
+      "image": "/img/works/18.png"
+    },
+    {
       "title": "Uny",
       "link": "https://unys.github.io/uny/",
       "text": "UNITSの正式版として再開発。より今風なデザインに調整し、開発環境も一新している",
@@ -12,14 +33,14 @@
       "link": "https://plant-milk.github.io/Yogurt/",
       "text": "マークダウン形式に対応した、ドキュメントページ向けの静的サイトジェネレータ。@steelydylanと共同開発。自分は主にUI周りを担当した",
       "tag": "React.js",
-      "image": "/img/works/16.gif"
+      "image": "/img/works/16.png"
     },
     {
       "title": "node-twatch",
       "link": "https://github.com/kokushin/node-twatch/",
       "text": "特定のユーザー、キーワードを含めたツイート監視し、一致するツイートが投稿された際にSlackへ転送するツール。効率の良い情報収集を目指すために開発された",
       "tag": "Node.js, npm",
-      "image": "/img/works/15.gif"
+      "image": "/img/works/15.png"
     },
     {
       "title": "jpn.css",
