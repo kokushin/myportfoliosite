@@ -1,0 +1,149 @@
+# 経歴
+
+## 基本情報
+
+|key|value|
+|---|-----|
+|Name|石黒 雄介 (Yusuke Ishiguro)|
+|Portfolio|[YUSUKE ISHIGURO](https://yusukeishiguro.com/)|
+|Blog|[Code of Duty](http://www.codeofduty.me/)|
+|GitHub|[@kokushin](https://github.com/kokushin)|
+|Qiita|[@kokushin](https://qiita.com/kokushin)|
+|Twitter|[@kokushing](https://twitter.com/kokushing)|
+
+## スキル
+
+### 言語
+
+- プログラミング言語
+  - HTML5
+  - EJS
+  - Pug
+  - CSS3
+  - CSS Next
+  - SCSS
+  - JavaScript
+  - TypeScript
+  - ES2015+
+  - PHP
+  - MySQL
+  - Node.js
+  - Realm
+  - Processing
+- 日本語
+  - ネイティブ
+- 英語
+  - コーディングでよく使う簡単な短文を書ける・読める程度
+
+### フレームワーク、ライブラリ
+
+- jQuery
+  - 受託でのWebサイト制作実績あり
+- Bootstrap
+  - 受託でのWebサイト制作実績あり
+- WordPress
+  - 受託でのWebサイト制作実績あり
+- Hexo
+  - 個人開発レベル [作品例 / ブログ](http://www.codeofduty.me/)
+- Vue.js
+  - 個人開発レベル [作品例 / ジェネレータ](https://github.com/unys/uny-theme-generator)
+- React.js
+  - 個人開発レベル [作品例 / ポートフォリオサイト](https://github.com/kokushin/myportfoliosite)
+- Codeigniter
+  - 個人開発レベル [作品例 / 管理画面](http://jane-kei.com/admin)
+- Express
+  - 個人開発レベル
+  
+### 開発環境
+
+- OS
+  - Mac
+- エディタ
+  - Visual Studio Code
+  - SublimeText
+  - Atom
+- タスクランナー・バンドラー
+  - Gulp
+  - Webpack
+  - rollup.js
+  - PostCSS
+- テストツール
+  - CircleCI
+- バージョン管理
+  - Git(GitHub)
+  - Mercurial
+- 連絡ツール
+  - Slack
+  - Skype
+  - Chatwork
+- タスク管理ツール
+  - Backlog
+  - Cybozu
+  - Trello
+- デザインツール
+  - Photoshop
+  - Sketch
+  - Adobe XD
+
+### その他
+
+- 個人的にOSS活動に注力
+  - npmで公開したフレームワークも多数 [作品例 / CSSフレームワーク](https://www.npmjs.com/package/uny)
+- 2年間ほど同人サークルで活動。一次・二次創作のイラスト集、短編漫画を販売。 [作品例](http://stone.black/maglon)
+
+## 強み
+
+- 新しい技術への関心があり、情報収集を欠かさず、実際に触れるように心がけている
+- 学習意欲が高く、社内外の勉強会への参加・登壇・主催を行う
+- 技術的に解決が困難な問題に直面したとき、別のアプローチで解決できるように思考できる
+- 自分が得た有益な情報は社内外問わずアウトプットするように心がけている [Qiitaでの例](https://qiita.com/kokushin/items/3889d2d2441c6f2020aa)
+- 作業の効率化を提案でき、なんなら自ら社内向けのツールとして開発できる [作品例](https://github.com/kokushin/slack-file-destroyer)
+- 議事録などのドキュメント化が得意な方である [実際に勉強会の現地で書いて投稿した記事](http://www.codeofduty.me/2017/04/22/wcan-2017-spring/)
+
+## やったことはないが興味があるもの
+
+- 自社サービス開発
+- テスト周り
+- コードレビュー・ペアプログラミング
+- ハッカソン・アイデアソン
+- ブロックチェーン
+- チャットボット
+- バックエンド（サーバー構築）
+- Python
+- Ruby on Rails
+
+## 登壇歴
+
+- HTML5 Nagoya #8 [スライド資料](https://docs.google.com/presentation/d/1i6ZgR6KHCmpXpYHSLb0uqOYLVo2c9Wqq3xpLNA10tUA/pub?start=false&loop=false&delayms=3000&slide=id.p) 
+- 名古屋マークアップ勉強会 1/18 [スライド資料](https://kokushin.github.io/makaben-0118/#/)
+- 名古屋マークアップ勉強会 4/22 [スライド資料](https://kokushin.github.io/makaben-0422/#)
+
+## 受賞歴
+
+- 第51回技能五輪全国大会 Webデザイン部門 銅賞
+
+## 職務経歴
+
+### 2014 - : 株式会社アンティー・ファクトリー
+
+職務: マークアップエンジニア
+
+#### 大手企業のオウンドメディアの制作
+
+- 数百ページ規模のオウンドメディアの設計・コーディングを担当
+- セキュリティ面の問題でCMSが利用不可、EJSなどメタ言語を駆使して更新環境を構築
+- 月間で約10ページほどを量産、納品
+- 月イチペースで入る改修・機能実装（ギャラリー・ソートなど）にも対応
+- コーディングだけでなく、ときにはテクニカルディレクションも行うことも
+
+#### 大手企業のプロモーションサイトの制作
+
+- CSS3、SVG、JavaScriptを利用しリッチなアニメーション、演出の実装を行う
+- 製品のイメージに沿った演出になるように限界まで挑戦した
+
+#### 地元企業のブランドサイトの制作
+
+- ブランドイメージを演出として表現できるようにCSS、JavaScriptで実装した
+- クライアントと直接意見を交換しあい、進行することができた
+
+#### 全てのクライアントワークは [こちら](https://ishiguro1.tumblr.com/archive) を御覧ください
