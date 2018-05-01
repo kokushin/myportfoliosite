@@ -1,6 +1,13 @@
 {
   "works": [
     {
+      "title": "デジフル",
+      "link": "https://digiful.net",
+      "text": "Glossyの後継サイト。アプリやWEBサービスを最大限に活用するためのメディア",
+      "tag": "WordPress",
+      "image": "/img/works/23.png"
+    },
+    {
       "title": "makepost",
       "link": "https://www.makepost.net/",
       "text": "全ての「つくる人」に刺激を与え、互いの創作意欲を高められるような場所にしたい。そんな想いから生まれた、 エンジニア向けのSNSです。 ",
