@@ -1,6 +1,20 @@
 {
   "works": [
     {
+      "title": "makepost",
+      "link": "https://www.makepost.net/",
+      "text": "全ての「つくる人」に刺激を与え、互いの創作意欲を高められるような場所にしたい。そんな想いから生まれた、 エンジニア向けのSNSです。 ",
+      "tag": "Ruby on Rails, AWS",
+      "image": "/img/works/22.png"
+    },
+    {
+      "title": "tico",
+      "link": "https://github.com/kokushin/tico",
+      "text": "テキストからファビコンなどのアイコン画像を生成できるジェネレータ。canvas->base64->png->zipと言った流れでブラウザ上で生成することが可能",
+      "tag": "Node.js(Express), Vue.js",
+      "image": "/img/works/21.png"
+    },
+    {
       "title": "md2docs",
       "link": "https://github.com/kokushin/md2docs",
       "text": "README.mdなどマークダウン形式のファイルからドキュメントを自動生成するツール。まだプロトタイプ段階",
